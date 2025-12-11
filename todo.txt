@@ -1,0 +1,4 @@
+1. command like system
+2. add .cpyup file to working project
+3. find location of device
+4. replace libs, code.py, and add other new files (eg. folders with code in them)
