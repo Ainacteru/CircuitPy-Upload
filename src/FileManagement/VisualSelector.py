@@ -17,12 +17,11 @@ class VisualSelector:
         print("Selected:", file_path)
         return file_path
     
-    def select_directory(self):
+    def select_directory(self, prompt="Select a Directory"):
         directory_path = QFileDialog.getExistingDirectory(
             None,
-            "Select a Directory",
+            prompt,
             ""
         )
-
-        print("Selected Directory:", directory_path)
+        # print("Selected Directory:", directory_path)
         return directory_path
